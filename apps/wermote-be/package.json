@@ -1,0 +1,19 @@
+{
+  "name": "wermote-be",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Omar Crespo <crespomerchano@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/wermote-be.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/wermote-be.test.js"
+  }
+}
