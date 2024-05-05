@@ -1,5 +1,7 @@
 # Wermote App
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=omarcresp_wermote&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=omarcresp_wermote)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
 ## Development server
