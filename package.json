@@ -1,6 +1,6 @@
 {
   "name": "wermote",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "npm run build && wrangler pages dev dist/cloudflare --compatibility-date=2024-05-02 --experimental-local",
