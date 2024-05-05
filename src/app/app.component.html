@@ -1,0 +1,10 @@
+@switch (layout$ | async) {
+  @case ('complete') {
+    <app-complete-layout>
+      <router-outlet/>
+    </app-complete-layout>
+  }
+  @default {
+    <router-outlet />
+  }
+}
