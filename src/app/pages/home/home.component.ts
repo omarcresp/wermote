@@ -15,6 +15,5 @@ import { HomeFooterComponent } from './components/home-footer/home-footer.compon
     HomeFooterComponent,
   ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
 })
 export class HomeComponent {}

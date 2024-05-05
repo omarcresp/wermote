@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './complete-layout.component.html',
-  styleUrl: './complete-layout.component.scss'
 })
 export class CompleteLayoutComponent {
 

@@ -22,7 +22,6 @@ async function workerFetchHandler(request: Request, env: Env) {
 		url: url.pathname,
 	});
 
-	// console.log("rendered SSR", content);
 	return new Response(content, indexResponse);
 }
 

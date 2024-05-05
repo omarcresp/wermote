@@ -12,7 +12,6 @@ interface IPerk {
   standalone: true,
   imports: [CommonModule],
   templateUrl: './remote-perks.component.html',
-  styleUrl: './remote-perks.component.scss',
 })
 export class RemotePerksComponent {
   public perks: IPerk[] = [
