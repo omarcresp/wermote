@@ -16,11 +16,12 @@
 
     <div class="w-px bg-weco-700 mx-3 h-full" role="separator"></div>
 
-    <figure class="text-2xl">
+    <figure [routerLink]="'/login'" class="text-2xl">
       <svg width="1em" height="1em" role="img">
         <use href="assets/icons.svg#profile"></use>
       </svg>
     </figure>
   </nav>
 </header>
-<ng-content />
+
+<router-outlet />
