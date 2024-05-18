@@ -4,9 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && npm run process",
+    "build:start": "node dist/my-angular-app/server/server.mjs",
+    "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:start": "node dist/my-angular-app/server/server.mjs"
+    "process": "node ./tools/copy-files.mjs && node ./tools/alter-polyfills.mjs",
+    "deploy": "npm run build && wrangler pages deploy dist/cloudflare"
   },
   "private": true,
   "dependencies": {
