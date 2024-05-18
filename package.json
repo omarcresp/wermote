@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "build:start": "node dist/my-angular-app/server/server.mjs",
+    "build:start": "node dist/my-angular-app/server/server.mjs"
   },
   "private": true,
   "dependencies": {
