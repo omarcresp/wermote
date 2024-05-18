@@ -10,7 +10,6 @@ export type TButtonStyles =
 @Component({
   selector: 'app-button',
   templateUrl: './button.component.html',
-  styleUrl: './button.component.scss',
 })
 export class ButtonComponent {
   @Input() bStyle!: TButtonStyles;
