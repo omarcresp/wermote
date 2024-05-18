@@ -1,15 +1,12 @@
 {
   "name": "wermote",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
-    "start": "npm run build && wrangler pages dev dist/cloudflare --compatibility-date=2024-05-02 --experimental-local",
-    "build": "ng build && npm run process",
-    "watch": "ng build --watch --configuration development",
+    "start": "ng serve",
+    "build": "ng build",
     "test": "ng test",
-    "serve:ssr:my-angular-app": "node dist/my-angular-app/server/server.mjs",
-    "process": "node ./tools/copy-files.mjs && node ./tools/alter-polyfills.mjs",
-    "deploy": "npm run build && wrangler pages deploy dist/cloudflare"
+    "build:start": "node dist/my-angular-app/server/server.mjs",
   },
   "private": true,
   "dependencies": {
